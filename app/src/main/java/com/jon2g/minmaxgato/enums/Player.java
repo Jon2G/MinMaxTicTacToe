@@ -1,4 +1,4 @@
-package com.example.minmaxgato.enums;
+package com.jon2g.minmaxgato.enums;
 
 public enum Player {
     NONE,O,X;

@@ -1,11 +1,10 @@
-package com.example.minmaxgato.abstractions;
+package com.jon2g.minmaxgato.abstractions;
 
 import androidx.annotation.NonNull;
 
-import com.example.minmaxgato.enums.Player;
+import com.jon2g.minmaxgato.enums.Player;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Board implements Cloneable {
     public static final int  BoardSize= 9;

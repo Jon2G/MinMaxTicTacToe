@@ -1,14 +1,14 @@
-package com.example.minmaxgato.abstractions;
+package com.jon2g.minmaxgato.abstractions;
 
-import com.example.minmaxgato.enums.AIResult;
-import com.example.minmaxgato.enums.Player;
+import com.jon2g.minmaxgato.enums.AIResult;
+import com.jon2g.minmaxgato.enums.Player;
 
 import java.util.Random;
 
 public class Gato {
 
    private static Random random = new Random();
-    public com.example.minmaxgato.abstractions.Board Board;
+    public com.jon2g.minmaxgato.abstractions.Board Board;
     public Player CurrentPlayer;
     public final Player Human;
     private final AI AI;
@@ -18,7 +18,7 @@ public class Gato {
         AI=new AI(Human.Rival());
         Board=new Board();
     }
-    public AIResult MarkBox(int r,int c,Player player){
+    public AIResult MarkBox(int r, int c, Player player){
         AIResult result=AIResult.DONE;
         Box box=Board.Get(r,c);
         if(box.player!=Player.NONE) {

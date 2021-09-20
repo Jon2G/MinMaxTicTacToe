@@ -1,8 +1,8 @@
-package com.example.minmaxgato.abstractions;
+package com.jon2g.minmaxgato.abstractions;
 
 
-import com.example.minmaxgato.enums.AIResult;
-import com.example.minmaxgato.enums.Player;
+import com.jon2g.minmaxgato.enums.AIResult;
+import com.jon2g.minmaxgato.enums.Player;
 
 public class AI {
     public final Player player;

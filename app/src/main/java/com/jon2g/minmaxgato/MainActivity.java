@@ -1,4 +1,4 @@
-package com.example.minmaxgato;
+package com.jon2g.minmaxgato;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,20 +11,19 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.minmaxgato.abstractions.Box;
-import com.example.minmaxgato.abstractions.Gato;
-import com.example.minmaxgato.enums.AIResult;
-import com.example.minmaxgato.enums.Player;
+import com.example.minmaxgato.R;
+import com.jon2g.minmaxgato.abstractions.Gato;
+import com.jon2g.minmaxgato.enums.AIResult;
+import com.jon2g.minmaxgato.enums.Player;
 
 public class MainActivity extends AppCompatActivity {
 
     private GridLayout MainGrid;
-    private com.example.minmaxgato.abstractions.Gato Gato;
+    private com.jon2g.minmaxgato.abstractions.Gato Gato;
     private TextView LabelTitle;
     private Button AgainButton;
     private boolean HasBeenDraw;
@@ -71,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         LabelTitle.setText("Mejor \"suerte\" para la proxima.");
-        Gato.CurrentPlayer=Player.NONE;
+        Gato.CurrentPlayer= Player.NONE;
         builder.setCancelable(false).setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

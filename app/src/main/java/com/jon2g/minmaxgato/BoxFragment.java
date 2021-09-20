@@ -1,12 +1,13 @@
-package com.example.minmaxgato;
+package com.jon2g.minmaxgato;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.minmaxgato.abstractions.Box;
+import com.example.minmaxgato.R;
+import com.jon2g.minmaxgato.abstractions.Box;
 
 public class BoxFragment extends Fragment {
 
-    private com.example.minmaxgato.abstractions.Box Box;
+    private com.jon2g.minmaxgato.abstractions.Box Box;
 
     public BoxFragment(Box Box) {
         super(R.layout.casilla_fragment);

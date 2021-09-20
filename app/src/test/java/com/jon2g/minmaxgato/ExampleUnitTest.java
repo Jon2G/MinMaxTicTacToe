@@ -1,4 +1,4 @@
-package com.example.minmaxgato;
+package com.jon2g.minmaxgato;
 
 import org.junit.Test;
 

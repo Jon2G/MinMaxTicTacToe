@@ -1,7 +1,5 @@
-package com.example.minmaxgato.abstractions;
-import com.example.minmaxgato.enums.Player;
-
-import java.util.ArrayList;
+package com.jon2g.minmaxgato.abstractions;
+import com.jon2g.minmaxgato.enums.Player;
 
 public class Prediction
 {
