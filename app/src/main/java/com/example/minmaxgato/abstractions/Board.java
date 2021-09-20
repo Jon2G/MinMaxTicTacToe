@@ -79,12 +79,13 @@ public class Board implements Cloneable {
             }
         }
         // / diagonal
-        player=Get(0,0).player;
-        if(player==Get(1,1).player&&player==Get(2,2).player){
+        player=Get(1,1).player;//centro
+        if(player==Get(0,0).player&&player==Get(2,2).player){
             return player;
         }
         // \ diagonal
-        if(player==Get(2,1).player&&player==Get(0,2).player){
+        player=Get(1,1).player;//centro
+        if(player==Get(2,0).player&&player==Get(0,2).player){
             return player;
         }
         return Player.NONE;
